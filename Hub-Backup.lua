@@ -10,9 +10,9 @@ if not game:IsLoaded() then game.Loaded:Wait() end
     elseif game.PlaceId == 15139160794 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Enzo-YTscript/scrp/main/15139160794.lua"))()
     elseif game.PlaceId == 18629053284 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Enzo-YTscript/scrp/main/18629053284.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629053284.lua"))()
     elseif game.PlaceId == 18629058177 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Enzo-YTscript/scrp/main/18629058177.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629058177.lua"))()
     else
       print("Game isn't Supported")
 end

@@ -3,6 +3,8 @@ if not game:IsLoaded() then game.Loaded:Wait() end
         loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629053284.lua"))()
     elseif game.PlaceId == 18629058177 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629058177.lua"))()
+    elseif game.PlaceId == 16572568747 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/16572568747.lua"))()
     else
       print("Game isn't Supported")
 end

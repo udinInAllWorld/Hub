@@ -18,4 +18,3 @@ if not game:IsLoaded() then game.Loaded:Wait() end
     else
       print("Game isn't Supported")
 end
-18629053284.lua

@@ -1,5 +1,5 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
-    if game.PlaceId == 18629053284 then
+    if game.PlaceId == 18629053284 then --survival odysy normal
         loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629053284.lua"))()
     elseif game.PlaceId == 18629058177 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629058177.lua"))()
@@ -11,8 +11,6 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/13127800756.lua"))()
     elseif game.PlaceId == 18401171146 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18401171146.lua"))()
-    elseif game.PlaceId == 18629053284 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629053284.lua"))()
     elseif game.PlaceId == 18629058177 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629058177.lua"))()
     elseif game.PlaceId == 92039548740735 then
@@ -20,3 +18,4 @@ if not game:IsLoaded() then game.Loaded:Wait() end
     else
       print("Game isn't Supported")
 end
+18629053284.lua

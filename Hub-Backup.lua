@@ -15,8 +15,10 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629058177.lua"))()
     elseif game.PlaceId == 92039548740735 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/92039548740735.lua"))()
-    elseif game.PlaceId == 89438510123061 then
+    elseif game.PlaceId == 89438510123061 then -- survival underwolrd
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/89438510123061.lua"))()
+	elseif game.PlaceId == 18629067363 then -- survival nopvp
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629067363.lua"))()
     else
       print("Game isn't Supported")
 end

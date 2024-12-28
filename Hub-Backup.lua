@@ -19,6 +19,8 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/89438510123061.lua"))()
 	elseif game.PlaceId == 18629067363 then -- survival nopvp
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629067363.lua"))()
-    else
+	elseif game.PlaceId == 6220960770 then -- swords blades 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/udinInAllWorld/PrivateScript/main/18629067363.lua"))()
+else
       print("Game isn't Supported")
 end
